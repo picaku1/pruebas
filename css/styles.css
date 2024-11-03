@@ -101,3 +101,81 @@
   text-decoration: none;
   color: #fff;
 } 
+
+/* Para dispositivos móviles (ancho máximo de 480px) */
+@media (max-width: 480px) {
+  
+  
+  .logo img {
+    
+   
+width: 120px;
+  }
+
+  
+  }
+
+
+.hero_description h1 {
+    font-size: 1.5em;
+  }
+
+  .descripcion_del_heroe p {
+    font-size: 1em;
+  }
+
+  .btn_green {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+
+/* Para tabletas (ancho máximo de 768px) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .acciones a img {
+    width: 20px;
+  }
+
+  .descripcion_del_heroe h1 {
+    font-size: 2em;
+  }
+}
+
+/* Estilos generales */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Para tabletas (ancho máximo de 768px) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu ul {
+    display: flex; /* Agregar esta línea */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .acciones a img {
+    width: 20px;
+  }
+
+  .descripcion_del_heroe h1 {
+    font-size: 2em;
+  }
+}
