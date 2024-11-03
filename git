@@ -1,0 +1,5 @@
+git init
+git add .
+git commit -m "Subiendo mi página"
+git remote add origin https://github.com/tu-usuario/pruebas.git
+git push -u origin main
