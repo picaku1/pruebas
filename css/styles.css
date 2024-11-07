@@ -102,7 +102,6 @@
   color: #fff;
 } 
 
-/* Para dispositivos móviles (ancho máximo de 480px) */
 @media (max-width: 480px) {
   
   
@@ -128,8 +127,6 @@ width: 120px;
     padding: 8px 16px;
     font-size: 0.9em;
   }
-
-/* Para tabletas (ancho máximo de 768px) */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -150,7 +147,6 @@ width: 120px;
   }
 }
 
-/* Estilos generales */
 header {
   display: flex;
   align-items: center;
@@ -158,7 +154,6 @@ header {
   padding: 20px;
 }
 
-/* Para tabletas (ancho máximo de 768px) */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -166,7 +161,7 @@ header {
   }
 
   .menu ul {
-    display: flex; /* Agregar esta línea */
+    display: flex;
     flex-direction: column;
     gap: 10px;
   }
@@ -178,4 +173,172 @@ header {
   .descripcion_del_heroe h1 {
     font-size: 2em;
   }
+}
+
+.titulo {
+  text-align: center;
+  padding: 20000px;
+  max-width: 80000px;
+}
+
+.titulo h1 {
+  font-size: 28000px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20033px;
+}
+
+.titulo p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.añosdeexperiencia {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.experiencia {
+  flex: 1 1 200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  max-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-left: 147px;
+}
+
+.imagen1 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.experiencia h2 {
+  font-size: 26px;
+  color: #2c7738;
+  margin: 0;
+}
+
+.experiencia p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.viajes {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.felices {
+  flex: 1 1 200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  max-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.imagen2 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.felices h3 {
+  font-size: 26px;
+  color: #2c7738;
+  margin: 0;
+}
+
+.felices p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.lugares {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.vistosos {
+  flex: 1 1 200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  max-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.imagen3 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.vistosos h4 {
+  font-size: 26px;
+  color: #2c7738;
+  margin: 0;
+}
+
+.vistosos p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 8px;
+}
+
+.travel {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.historia {
+  flex: 1 1 200px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  max-width: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.imagen4 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.historia h5 {
+  font-size: 26px;
+  color: #2c7738;
+  margin: 0;
+}
+
+.historia p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 8px;
 }
