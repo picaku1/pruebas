@@ -175,170 +175,175 @@ header {
   }
 }
 
-.titulo {
+.container {
   text-align: center;
-  padding: 20000px;
-  max-width: 80000px;
 }
 
-.titulo h1 {
-  font-size: 28000px;
-  font-weight: bold;
-  color: #222;
-  margin-bottom: 20033px;
+h1 {
+  font-size: 2em;
+  margin-top: 72px;
+  margin-bottom: 63px;
 }
 
-.titulo p {
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service-box {
+  font-weight: 600;
+  font-size: 24px;
+  width: 416px;
+  height: 232px;
+  display: flex;
+  margin: 50px 30px;
+  padding: 15px 30px 30px 30px;
+  border-radius: 15px;
+  gap: 20px;
+}
+
+.gray {
+  background-color: #F9F9F9;
+}
+
+.white {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.263);
+}
+
+.Espacios {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  text-align: left;
+  text-size-adjust: 50%;
+  padding: 3%;
+}
+
+
+.leyendaChikita {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 328px;
+  height: 44px;
   font-size: 16px;
-  color: #666;
+  margin: 10px auto;
+}
+
+
+
+.service-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.service-section h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.service-section p {
+  color: #555;
   margin-bottom: 30px;
 }
 
-.añosdeexperiencia {
+/* Estilos de los cuadros de información */
+.info-boxes {
   display: flex;
-  gap: 15px;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
+  gap: 15px;
 }
 
-.experiencia {
-  flex: 1 1 200px;
+.info-box {
+  width: 150px;
   padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  border: 2px solid #e0e0e0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 200px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  margin-left: 147px;
 }
 
-.imagen1 img {
-  width: 50px;
-  height: 50px;
+.info-box h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.info-box p {
+  color: #666;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 24px;
+  color: green;
+}
+
+.popular{
+  background-color: #fff ;
+  background-image: url(mapa-popular.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1004px;
+  margin-top: 83px;
+}
+
+.cajita{
+  flex-direction: column;
+  display: flex ; 
+  align-items: end;    
+  margin-right: 100px;
+}
+
+.cajita div{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  width: 659px;
+ align-items: center;
+  box-shadow: 3px 3px 10px 0px #00000014;
+  margin-top: 42px;
   margin-bottom: 10px;
 }
 
-.experiencia h2 {
-  font-size: 26px;
-  color: #2c7738;
-  margin: 0;
-}
-
-.experiencia p {
-  font-size: 15px;
-  color: #555;
-  margin-top: 8px;
-}
-
-.viajes {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
+.desc{
   flex-wrap: wrap;
+  width: 100px;
 }
 
-.felices {
-  flex: 1 1 200px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  border: 2px solid #e0e0e0;
-  text-align: center;
-  max-width: 200px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.gothailand{
+  transition: all 0.5s ease;
 }
 
-.imagen2 img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
+.gothailand:hover {
+ transform: scale(2.2);
 }
 
-.felices h3 {
-  font-size: 26px;
-  color: #2c7738;
-  margin: 0;
-}
-
-.felices p {
-  font-size: 15px;
-  color: #555;
-  margin-top: 8px;
-}
-
-.lugares {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
+.indonesia h3{
   flex-wrap: wrap;
+  width: 100px;
 }
 
-.vistosos {
-  flex: 1 1 200px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  border: 2px solid #e0e0e0;
-  text-align: center;
-  max-width: 200px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.goindonesia{
+  transition: all 0.5s ease;
 }
 
-.imagen3 img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
+.goindonesia:hover {
+ transform: scale(2.2);
 }
 
-.vistosos h4 {
-  font-size: 26px;
-  color: #2c7738;
-  margin: 0;
-}
-
-.vistosos p {
-  font-size: 15px;
-  color: #555;
-  margin-top: 8px;
-}
-
-.travel {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
+.newzeland h3{
   flex-wrap: wrap;
+  width: 100px;
 }
 
-.historia {
-  flex: 1 1 200px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 12px;
-  border: 2px solid #e0e0e0;
-  text-align: center;
-  max-width: 200px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+.gonew{
+  transition: all 0.5s ease;
 }
 
-.imagen4 img {
-  width: 50px;
-  height: 50px;
-  margin-bottom: 10px;
-}
-
-.historia h5 {
-  font-size: 26px;
-  color: #2c7738;
-  margin: 0;
-}
-
-.historia p {
-  font-size: 15px;
-  color: #555;
-  margin-top: 8px;
+.gonew:hover{
+ transform: scale(2.2);
 }
