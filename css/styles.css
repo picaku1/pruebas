@@ -248,42 +248,175 @@ h1 {
   margin-bottom: 30px;
 }
 
-/* Estilos de los cuadros de información */
-.info-boxes {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  gap: 15px;
+.bets_service{
+  background: rgba(0, 88, 84, 0.06);
+  height: 733px;
+  position: relative;
+
 }
 
-.info-box {
-  width: 150px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.map_best{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info_bets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bets_description{
+  padding: 61px 0;
+  width: 518px;
+
+}
+
+.bets_description h2{
+  font-weight: 700;
+  font-size: 40px;
   text-align: center;
 }
 
-.info-box h3 {
-  margin: 10px 0;
-  font-size: 18px;
-  color: #333;
+.bets_description p{
+  font-size: 16px;
+  text-align: center;
+  margin: 19px auto;
 }
 
-.info-box p {
-  color: #666;
-  font-size: 14px;
+.cuadros{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 141px;
 }
 
-.icon {
-  font-size: 24px;
-  color: green;
+.calendar{
+  width: 250px;
+  height: 250px;
+  display: block;
+  background: #ffff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.estadisticas{
+  width: 250px;
+  height: 250px;
+  display: block;
+  background: #ffff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.TRAVEL_HISTORIA{
+  width: 250px;
+  height: 250px;
+  display: block;
+  background: #ffff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.ubicaciones{
+  width: 250px;
+  height: 250px;
+  display: block;
+  background: #ffff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calendar img {
+  margin: 43px 0 29px 0;
+}
+
+.estadisticas img {
+  margin: 42px 0 32px 0;
+}
+
+.ubicaciones img {
+  margin: 42px 0 35px 0;
+}
+
+.TRAVEL_HISTORIA img {
+  margin: 43px 0 42px 0;
+}
+
+.calendar h2{
+  font-size: 36px ;
+  width: 76px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.estadisticas h2{
+  font-size: 36px ;
+  width: 88px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ubicaciones h2{
+  font-size: 36px ;
+  width: 102px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.TRAVEL_HISTORIA h2{
+  font-size: 36px ;
+  width: 76px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.calendar p{
+  font-size: 20px;
+  width: 99px;
+  height: 54px;
+  text-align: center;
+}
+
+.estadisticas p{
+  font-size: 20px;
+  width: 91px;
+  height: 54px;
+  text-align: center;
+}
+
+.ubicaciones p{
+  font-size: 20px;
+  width: 126px;
+  height: 27px;
+  text-align: center;
+}
+.TRAVEL_HISTORIA p{
+  font-size: 20px;
+  width: 129px;
+  height: 27;
+  text-align: center;
 }
 
 .popular{
   background-color: #fff ;
-  background-image: url(mapa-popular.svg);
+  background-image: url(../mapamundi.svg);
   background-repeat: no-repeat;
   background-position: left;
   height: 1004px;
@@ -346,4 +479,95 @@ h1 {
 
 .gonew:hover{
  transform: scale(2.2);
+}
+
+.coantainer {
+  text-align: center;
+  max-width: 1200px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.menuu {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.menuu button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #ddd;
+  color: #333;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.menuu .active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.packages {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.package-card {
+  background-color: white;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+.package-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.package-info {
+  padding: 15px;
+}
+
+.package-info h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.package-info span {
+  float: right;
+  color: #888;
+}
+
+.package-info p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.package-info a {
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.discover-more {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  margin-top: 20px;
 }
