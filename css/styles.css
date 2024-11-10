@@ -313,19 +313,17 @@ gap: 141px;
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 .TRAVEL_HISTORIA{
-  width: 250px;
-  height: 250px;
-  display: block;
-  background: #ffff;
-  border-radius: 10%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
+  width: 80%;              
+  max-width: 250px;       
+  height: auto;             
+  background: #fff;        
+  border-radius: 10%;       
+  display: flex;            
+  align-items: center;      
+  flex-direction: column;  
 }
 
 .ubicaciones{
@@ -421,16 +419,27 @@ gap: 141px;
   background-position: left;
   height: 1004px;
   margin-top: 83px;
+  position: relative;
 }
 
-.cajita{
+.blue-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #00A2FF; 
+  border-radius: 50%;
+  border: 2px solid white; 
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.caja_viajes{
   flex-direction: column;
   display: flex ; 
   align-items: end;    
   margin-right: 100px;
 }
 
-.cajita div{
+.caja_viajes div{
   background-color: #fff;
   display: flex;
   justify-content: space-between;
@@ -447,11 +456,11 @@ gap: 141px;
   width: 100px;
 }
 
-.gothailand{
-  transition: all 0.5s ease;
+.thaylan{
+  transition: all 0.6s ease;
 }
 
-.gothailand:hover {
+.thaylan:hover {
  transform: scale(2.2);
 }
 
@@ -460,11 +469,11 @@ gap: 141px;
   width: 100px;
 }
 
-.goindonesia{
-  transition: all 0.5s ease;
+.indones{
+  transition: all 0.6s ease;
 }
 
-.goindonesia:hover {
+.indones:hover {
  transform: scale(2.2);
 }
 
@@ -473,20 +482,20 @@ gap: 141px;
   width: 100px;
 }
 
-.gonew{
-  transition: all 0.5s ease;
+.new_zeland{
+  transition: all 0.6s ease;
 }
 
-.gonew:hover{
+.new_zeland:hover{
  transform: scale(2.2);
 }
 
-Packages{
+.PAQUETES{
   width: 100%;
   height: 1119px;
   background: #ecf1f0;
 }
-.Packages h1{
+.PAQUETES h1{
   color: #000;
   margin: 0px;
   padding: 25px;
@@ -496,7 +505,7 @@ Packages{
   font-family: "Open Sans", sans-serif;
 }
 
-.Bottoms {
+.botones {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
   gap: 60px; 
@@ -506,7 +515,7 @@ Packages{
   align-items: flex-start; 
 }
 
-.Bottoms .btn_gray {
+.botones .btn_gray {
   width: 180px;
   height: 60px;
   background: #666;
@@ -521,11 +530,11 @@ Packages{
   text-align: center;
   transition: all 0.5s ease;
 }
-.Bottoms .btn_gray:hover{
+.botones .btn_gray:hover{
   background: #00A651;
   color: #666;
 }
-.Bottoms .btn_green2{
+.botones .btn_green2{
   width: 180px;
   height: 60px;
   background: #666;
@@ -546,7 +555,7 @@ Packages{
   color: #666;
 }
 
-.Container{
+.Contenido{
   display: grid;
   margin: 80px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -563,14 +572,14 @@ Packages{
   width: 400px;
 }
 
-.Places img{
+.recuadros img{
   position: relative;
   bottom: 28px;
   width: 400px;
   height: 485px;
 }
 
-.Places h1{
+.recuadros h1{
   font-size: 20px;
   font-weight: 400;
   position: relative;
@@ -578,7 +587,7 @@ Packages{
   bottom: 20px;
 }
 
-.Places h2{
+.recuadros h2{
   font-size: 20px;
   font-weight: 400;
   position: relative;
@@ -586,7 +595,7 @@ Packages{
   bottom: 75px;
 }
 
-.Places p{
+.recuadros p{
   font-size: 16px;
   position: relative;
   left: 1px;
@@ -594,24 +603,24 @@ Packages{
   padding: 5px;
 }
 
-.Text{
+.info_packates{
   display: flex;
 }
-.Text img{
+.info_packates img{
   position: relative;
   bottom: 15px;
   width: 20px;
   height: 20px;
 }
 
-.Text h3{
+.info_packates h3{
   position: relative;
   left: 5px;
   bottom: 18px;
   font-size: 20px;
   font-weight: 600;
 }
-.Text h4{
+.info_packates h4{
   position: relative;
   left: 180px;
   bottom: 15px;
@@ -619,7 +628,7 @@ Packages{
   font-weight: 600;
   text-decoration: underline;
 }
-.Text h5{
+.Tinfo_packates h5{
   position: relative;
   left: 225px;
   bottom: 15px;
@@ -628,30 +637,59 @@ Packages{
   text-decoration: underline;
 }
 
-.Text a{
+.info_packates a{
   color: inherit;
 }
-.btn_green3{
-  position: relative;
-  left: 508px;
-  bottom: 130px;
+.btn_green3 {
   width: 300px;
   height: 80px;
   background: #00A651;
   border-radius: 10px;
   text-align: center;
   color: #fff;
-  display: block;
-  margin: auto;
   font-size: 24px;
   font-weight: 600;
   text-decoration: none;
   padding: 20px 0;
   transition: all 0.5s ease;
+  margin: 0 auto; 
+  display: block;
 }
+
 
 .btn_green3:hover{
   background-color: #fff;
   color: #00A651;
 }
 
+.book {
+  text-align: center;
+  padding: 20px;
+}
+
+.book_descripcion {
+  align-items: center;
+  justify-content: center;
+}
+
+.book_descripcion h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.book_descripcion p {
+  font-size: 16px;
+  text-align: center;
+  margin: 19px auto;
+}
+
+.imagen_bokk img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0;
+  width: 100%;
+  max-width: 1147px;
+  height: auto;
+}
