@@ -342,3 +342,449 @@ header {
   color: #555;
   margin-top: 8px;
 }
+
+bets_service{
+  background: rgba(0, 88, 84, 0.06);
+  height: 733px;
+  position: relative;
+
+}
+
+.map_best{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.info_bets {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bets_description{
+  padding: 61px 0;
+  width: 518px;
+
+}
+
+.bets_description h2{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.bets_description p{
+  font-size: 16px;
+  text-align: center;
+  margin: 19px auto;
+}
+
+.cuadros{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 141px;
+}
+
+.calendar{
+  width: 250px;
+  height: 250px;
+  display: block;
+  background: #ffff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.estadisticas{
+  width: 250px;
+  height: 250px;
+  display: block;
+  background: #ffff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.TRAVEL_HISTORIA{
+  width: 80%;              
+  max-width: 250px;       
+  height: auto;             
+  background: #fff;        
+  border-radius: 10%;       
+  display: flex;            
+  align-items: center;      
+  flex-direction: column;  
+}
+
+.ubicaciones{
+  width: 250px;
+  height: 250px;
+  display: block;
+  background: #ffff;
+  border-radius: 10%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.calendar img {
+  margin: 43px 0 29px 0;
+}
+
+.estadisticas img {
+  margin: 42px 0 32px 0;
+}
+
+.ubicaciones img {
+  margin: 42px 0 35px 0;
+}
+
+.TRAVEL_HISTORIA img {
+  margin: 43px 0 42px 0;
+}
+
+.calendar h2{
+  font-size: 36px ;
+  width: 76px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.estadisticas h2{
+  font-size: 36px ;
+  width: 88px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ubicaciones h2{
+  font-size: 36px ;
+  width: 102px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.TRAVEL_HISTORIA h2{
+  font-size: 36px ;
+  width: 76px;
+  height: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.calendar p{
+  font-size: 20px;
+  width: 99px;
+  height: 54px;
+  text-align: center;
+}
+
+.estadisticas p{
+  font-size: 20px;
+  width: 91px;
+  height: 54px;
+  text-align: center;
+}
+
+.ubicaciones p{
+  font-size: 20px;
+  width: 126px;
+  height: 27px;
+  text-align: center;
+}
+.TRAVEL_HISTORIA p{
+  font-size: 20px;
+  width: 129px;
+  height: 27;
+  text-align: center;
+}
+
+
+.popular{
+  background-color: #fff ;
+  background-image: url(../mapamundi.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 1004px;
+  margin-top: 83px;
+  position: relative;
+}
+
+.blue-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #00A2FF; 
+  border-radius: 50%;
+  border: 2px solid white; 
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.caja_viajes{
+  flex-direction: column;
+  display: flex ; 
+  align-items: end;    
+  margin-right: 100px;
+}
+
+.caja_viajes div{
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 6px;
+  width: 659px;
+ align-items: center;
+  box-shadow: 3px 3px 10px 0px #00000014;
+  margin-top: 42px;
+  margin-bottom: 10px;
+}
+
+.desc{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.thaylan{
+  transition: all 0.6s ease;
+}
+
+.thaylan:hover {
+ transform: scale(2.2);
+}
+
+.indonesia h3{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.indones{
+  transition: all 0.6s ease;
+}
+
+.indones:hover {
+ transform: scale(2.2);
+}
+
+.newzeland h3{
+  flex-wrap: wrap;
+  width: 100px;
+}
+
+.new_zeland{
+  transition: all 0.6s ease;
+}
+
+.new_zeland:hover{
+ transform: scale(2.2);
+}
+
+.PAQUETES{
+  width: 100%;
+  height: 1119px;
+  background: #ecf1f0;
+}
+.PAQUETES h1{
+  color: #000;
+  margin: 0px;
+  padding: 25px;
+  font-size: 40px;
+  font-weight: 720;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.botones {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 60px; 
+  margin: 100px;
+  margin-top: 20px;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+.botones .btn_gray {
+  width: 180px;
+  height: 60px;
+  background: #666;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 14px;
+  font-weight: 600;
+  color: #f0f0f0;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+.botones .btn_gray:hover{
+  background: #00A651;
+  color: #666;
+}
+.botones .btn_green2{
+  width: 180px;
+  height: 60px;
+  background: #666;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 14px;
+  font-weight: 600;
+  color: #f0f0f0;
+  text-align: center;
+  transition: all 0.5s ease;
+}
+
+.btn_green2:hover{
+  background-color: #00A651;
+  color: #666;
+}
+
+.Contenido{
+  display: grid;
+  margin: 80px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 70px;
+}
+
+.white_container{
+  position: relative;
+  bottom: 190px;
+  background: #fff;
+  border-bottom-left-radius:  20px;
+  border-bottom-right-radius:  20px;
+  height: 180px;
+  width: 400px;
+}
+
+.recuadros img{
+  position: relative;
+  bottom: 28px;
+  width: 400px;
+  height: 485px;
+}
+
+.recuadros h1{
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  right: 120px;
+  bottom: 20px;
+}
+
+.recuadros h2{
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
+  left: 270px;
+  bottom: 75px;
+}
+
+.recuadros p{
+  font-size: 16px;
+  position: relative;
+  left: 1px;
+  bottom: 60px;
+  padding: 5px;
+}
+
+.info_packates{
+  display: flex;
+}
+.info_packates img{
+  position: relative;
+  bottom: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+.info_packates h3{
+  position: relative;
+  left: 5px;
+  bottom: 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.info_packates h4{
+  position: relative;
+  left: 180px;
+  bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.Tinfo_packates h5{
+  position: relative;
+  left: 225px;
+  bottom: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.info_packates a{
+  color: inherit;
+}
+.btn_green3 {
+  width: 300px;
+  height: 80px;
+  background: #00A651;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 20px 0;
+  transition: all 0.5s ease;
+  margin: 0 auto; 
+  display: block;
+}
+
+
+.btn_green3:hover{
+  background-color: #fff;
+  color: #00A651;
+}
+
+.book {
+  text-align: center;
+  padding: 20px;
+}
+
+.book_descripcion {
+  align-items: center;
+  justify-content: center;
+}
+
+.book_descripcion h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.book_descripcion p {
+  font-size: 16px;
+  text-align: center;
+  margin: 19px auto;
+}
+
+.imagen_bokk {
+  display: flex;
+  width: 1147px;
+  height: 466.94px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 53%;
+}
