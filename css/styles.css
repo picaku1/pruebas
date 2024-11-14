@@ -18,6 +18,7 @@
     padding: 30px;
   }
   
+  
   .menu {
     width: 382px;
 }
@@ -290,7 +291,7 @@ h1 {
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 141px;
+gap: 90px;
 }
 
 .calendar{
@@ -417,8 +418,9 @@ gap: 141px;
   background-image: url(../mapamundi.svg);
   background-repeat: no-repeat;
   background-position: left;
+  background-size: 550px 772px;
   height: 1004px;
-  margin-top: 83px;
+  margin-top: 40px;
   position: relative;
 }
 
@@ -688,7 +690,7 @@ gap: 141px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto 0;
+  margin: 83px;
   width: 100%;
   max-width: 1147px;
   height: auto;
