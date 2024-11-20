@@ -18,6 +18,7 @@
     padding: 30px;
   }
   
+  
   .menu {
     width: 382px;
 }
@@ -290,7 +291,7 @@ h1 {
 display: flex;
 align-items: center;
 justify-content: center;
-gap: 100px;
+gap: 90px;
 }
 
 .calendar{
@@ -417,9 +418,9 @@ gap: 100px;
   background-image: url(../Group\ 593.png);
   background-repeat: no-repeat;
   background-position: left;
-  background-size: contain;
+  background-size: 550px 772px;
   height: 1004px;
-  margin-top: 83px;
+  margin-top: 40px;
   position: relative;
 }
 
@@ -652,158 +653,40 @@ gap: 100px;
 }
 
 
-.book {
-  text-align: center;
-  padding: 20px;
-	gap: 141px;
-  width: 100%;
-  max-width: 1147px;
-  height: auto;
-}
-
-
-.subscription-box {
-  background-color: #e0f7f1;
-  padding: 20px 30px;
-  border-radius: 15px;
-  text-align: center;
-  width: 400px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+.boook{
+  background-color: #fff ;
+  background-image: url(../cuadrotodo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 550px 772px;
+  height: 1004px;
+  margin-top: 40px;
   position: relative;
-}
-
-.subscription-box p {
-  font-size: 16px;
-  color: #3a3a3a;
-  margin-bottom: 15px;
-}
-
-form {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
-
-input[type="email"] {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  outline: none;
-  width: 100%;
-  max-width: 200px;
-}
-
-button {
-  background-color: #00a957;
-  color: white;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #008c4a;
-}
-
-.book {
-  text-align: center;
-  padding: 20px;
-}
-
-.book_descripcion {
-  align-items: center;
-  justify-content: center;
-}
-
-.book_descripcion h2 {
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-}
-
-.book_descripcion p {
-  font-size: 16px;
-  text-align: center;
-  margin: 19px auto;
-}
-
-.imagen_bokk img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto 0;
-  width: 100%;
-  max-width: 1147px;
-  height: auto;
+  left: 940px;
+  bottom: 940px;
 }
 
 
-.subscription-box {
-  width: 500px;
-  padding: 30px;
-  background-color: #e6fcf7; /* Color de fondo verde claro */
-  border-radius: 20px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  position: relative; /* Necesario para posicionar el icono dentro del contenedor */
-  display: flex;
+.cuadritosss{
   flex-direction: column;
-  justify-content: center; /* Centra los elementos en el eje vertical */
-  align-items: center; /* Centra los elementos en el eje horizontal */
+  display: flex ; 
+  align-items: left;    
+  margin-right: 100px;
 }
 
-.send-icon {
-  position: absolute;
-  top: -15px;
-  right: -15px;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
+.cuadritosss div{
+  background-color: #fff;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+  width: 659px;
+ align-items: center;
+  box-shadow: 3px 3px 10px 0px #00000014;
+  margin-top: 42px;
+  margin-bottom: 10px;
 }
 
-.send-icon img {
-  width: 70px; 
-  height: 70px;
-}
-
-.subscription-text {
-  font-size: 18px;
-  color: #4a4a4a;
-  margin-bottom: 20px;
-}
-
-.subscription-form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-.email-input {
-  width: 60%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  outline: none;
-  font-size: 16px;
-}
-
-.subscribe-button {
-  padding: 10px 20px;
-  background-color: #00b169; /* Color del botón */
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s;
-}
-
-.subscribe-button:hover {
-  background-color: #009e5b;
+.desc{
+  flex-wrap: wrap;
+  width: 200px;
 }
